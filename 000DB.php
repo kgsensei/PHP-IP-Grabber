@@ -5,5 +5,5 @@ $file=fopen("ip_log.txt","a");
 $data = $ip.' '.$dt."\n";
 fwrite($file, $data);
 fclose($file);
-header( 'Location: https://www.deadclubgame.com/ipg/1.png' ) ;
+header( 'Location: https://www.google.com' ) ;
 ?>
